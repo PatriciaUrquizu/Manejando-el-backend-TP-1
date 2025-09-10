@@ -1,0 +1,16 @@
+{
+  "name": "manejando-el-backend-tp-1",
+  "version": "1.0.0",
+  "description": "1 - Creo el repositor en github.\r 2 - se realizan la rama secundaria llamada test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
