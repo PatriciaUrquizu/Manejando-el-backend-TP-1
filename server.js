@@ -3,7 +3,8 @@ const url = require('url');
 const fs = require('fs');
 const path = require('path');
 
-const { conceptos } = require('./script');
+let conceptos = [];   //  Aquí inicializamos el array
+let nextId = 1; 
 
 const server = http.createServer((req, res) => {
     const parsedUrl = url.parse(req.url, true);

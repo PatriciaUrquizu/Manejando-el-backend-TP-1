@@ -138,6 +138,4 @@ function mostrarMensaje(mensaje, tipo) {
     
     setTimeout(() => div.remove(), 3000);
 }
-let conceptos = [];
-exports.conceptos = conceptos;
 
