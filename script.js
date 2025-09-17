@@ -71,7 +71,6 @@ function mostrarConceptos(conceptos) {
                 </button>
             </div>
             <p class="concepto-definicion">${concepto.definicion}</p>
-            <p class="concepto-fecha">Creado: ${new Date(concepto.fechaCreacion).toLocaleString()}</p>
         </div>
     `).join('');
 }
@@ -139,3 +138,6 @@ function mostrarMensaje(mensaje, tipo) {
     
     setTimeout(() => div.remove(), 3000);
 }
+let conceptos = [];
+exports.conceptos = conceptos;
+
